@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 0, 0.82);
+}
+
+.Todo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(134, 207, 221);
+  padding: 0.05rem 1rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.TodoForm{
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.todo-input{
+  outline: none;
+  background: none;
+  border: 1px solid;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 300px;
+  color: black;
+}
+
+.todo-btn{
+  text-align: auto;
+  padding: 0.45rem;
+  margin-left: 2px;
+}
+
+.completed{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-decoration: line-through;
+  cursor: pointer;
+}
+
+.incompleted{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  cursor: pointer;
+}
